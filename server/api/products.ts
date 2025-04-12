@@ -12,11 +12,11 @@ export default defineEventHandler(() => {
             { image: 'https://placehold.co/80x80?text=Auto', label: 'Motoryzacja' },
         ],
         produkty1: [
-            { image: 'https://picsum.photos/seed/blender/180/180', name: 'Blender KitchenMix 2000', price: '368,89', delivery: 'we wtorek' },
-            { image: 'https://picsum.photos/seed/koszyk/180/180', name: 'Koszyk wielkanocny z kwiatami', price: '65,00', delivery: 'we wtorek' },
-            { image: 'https://picsum.photos/seed/baby/180/180', name: 'Ochraniacz dla dzieci CARIBOO', price: '79,90', delivery: 'w środę' },
-            { image: 'https://picsum.photos/seed/kosmetyki/180/180', name: 'Zestaw kosmetyków pielęgnacyjnych', price: '278,00', delivery: 'w poniedziałek' },
-            { image: 'https://picsum.photos/seed/grill/180/180', name: 'Grill ogrodowy RUSZTY', price: '329,00', delivery: 'we wtorek' },
+            { image: 'https://picsum.photos/seed/blender/180/180', name: 'Blender KitchenMix 2000', price: '368,89', delivery: 'we wtorek' }, // 0
+            { image: 'https://picsum.photos/seed/koszyk/180/180', name: 'Koszyk wielkanocny z kwiatami', price: '65,00', delivery: 'we wtorek' }, // 1
+            { image: 'https://picsum.photos/seed/baby/180/180', name: 'Ochraniacz dla dzieci CARIBOO', price: '79,90', delivery: 'w środę' },  // 2
+            { image: 'https://picsum.photos/seed/kosmetyki/180/180', name: 'Zestaw kosmetyków pielęgnacyjnych', price: '278,00', delivery: 'w poniedziałek' },  // 3
+            { image: 'https://picsum.photos/seed/grill/180/180', name: 'Grill ogrodowy RUSZTY', price: '329,00', delivery: 'we wtorek' },  // 4
         ],
         produkty2: [
             { image: 'https://picsum.photos/seed/trawa/180/180', name: 'Trawa ogrodowa dekoracyjna', price: '5,99', delivery: 'w środę' },

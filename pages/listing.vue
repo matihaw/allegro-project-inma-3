@@ -16,8 +16,7 @@ const produkty1 = computed(() => data.value?.produkty1 || [])
     <div v-else class="flex flex-col gap-4 max-w-screen-md mx-auto">
       <!-- Iterujemy po produktach -->
       <div
-          v-for="(product, index) in produkty1"
-          :key="index"
+          v-for="(product, index) in produkty1" :key="index"
           class="flex items-center bg-[#2a2a2a] rounded-xl p-4 gap-4 shadow-sm"
       >
         <!-- Zdjęcie produktu -->
