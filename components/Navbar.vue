@@ -52,7 +52,7 @@
 
         <!-- Lewa część -->
         <div class="flex flex-wrap items-center gap-4">
-          <NuxtLink to="listing" class="hover:underline">Kategorie</NuxtLink>
+          <NuxtLink to="/listing" class="hover:underline">Kategorie</NuxtLink>
           <a href="#" class="hover:underline">Strefa Okazji</a>
           <a href="#" class="hover:underline">Allegro Protect</a>
           <a href="#" class="hover:underline">Gwarancja najniższej ceny</a>
