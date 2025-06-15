@@ -32,196 +32,47 @@ export default defineNuxtConfig({
             orientation: 'portrait',
             scope: '/',
             start_url: '/',
-            icons: [
+            categories: ['shopping', 'marketplace'],
+            lang: 'pl',
+            screenshots: [
                 {
-                    src: '/android/android-launchericon-512-512.png',
-                    sizes: '512x512',
+                    src: '/screenshots/desktop-1.png',
+                    sizes: '1535x851',
                     type: 'image/png',
-                    purpose: 'any maskable'
+                    form_factor: 'wide',
+                    label: 'Allegro - Główna strona'
                 },
+                {
+                    src: '/screenshots/mobile-1.png',
+                    sizes: '369x333',
+                    type: 'image/png',
+                    form_factor: 'narrow',
+                    label: 'Allegro - Mobilna strona główna'
+                },
+                {
+                    src: '/screenshots/mobile-2.png',
+                    sizes: '369x333',
+                    type: 'image/png',
+                    form_factor: 'narrow',
+                    label: 'Allegro - Lista produktów'
+                }
+            ],
+            icons: [
                 {
                     src: '/android/android-launchericon-192-192.png',
                     sizes: '192x192',
                     type: 'image/png',
-                    purpose: 'any maskable'
-                },
-                {
-                    src: '/android/android-launchericon-144-144.png',
-                    sizes: '144x144',
-                    type: 'image/png',
                     purpose: 'any'
                 },
                 {
-                    src: '/android/android-launchericon-96-96.png',
-                    sizes: '96x96',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/android/android-launchericon-72-72.png',
-                    sizes: '72x72',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/android/android-launchericon-48-48.png',
-                    sizes: '48x48',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/16.png',
-                    sizes: '16x16',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/20.png',
-                    sizes: '20x20',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/29.png',
-                    sizes: '29x29',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/32.png',
-                    sizes: '32x32',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/40.png',
-                    sizes: '40x40',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/50.png',
-                    sizes: '50x50',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/57.png',
-                    sizes: '57x57',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/58.png',
-                    sizes: '58x58',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/60.png',
-                    sizes: '60x60',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/64.png',
-                    sizes: '64x64',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/72.png',
-                    sizes: '72x72',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/76.png',
-                    sizes: '76x76',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/80.png',
-                    sizes: '80x80',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/87.png',
-                    sizes: '87x87',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/100.png',
-                    sizes: '100x100',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/114.png',
-                    sizes: '114x114',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/120.png',
-                    sizes: '120x120',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/128.png',
-                    sizes: '128x128',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/144.png',
-                    sizes: '144x144',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/152.png',
-                    sizes: '152x152',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/167.png',
-                    sizes: '167x167',
+                    src: '/android/android-launchericon-512-512.png',
+                    sizes: '512x512',
                     type: 'image/png',
                     purpose: 'any'
                 },
                 {
                     src: '/ios/180.png',
                     sizes: '180x180',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/192.png',
-                    sizes: '192x192',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/256.png',
-                    sizes: '256x256',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/512.png',
-                    sizes: '512x512',
-                    type: 'image/png',
-                    purpose: 'any'
-                },
-                {
-                    src: '/ios/1024.png',
-                    sizes: '1024x1024',
                     type: 'image/png',
                     purpose: 'any'
                 }
