@@ -7,6 +7,7 @@
     </NuxtLayout>
     <FooterArticles />
     <FooterMain />
+    <VitePwaManifest/>
   </div>
 </template>
 <script setup lang="ts">
